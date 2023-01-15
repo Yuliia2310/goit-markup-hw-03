@@ -1,0 +1,204 @@
+/* MAIN STYLES  */
+
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31d0aa;
+    --text: #434455;
+    --subtle-text: #8e8f99;
+    --accent: #e7e9fc;
+    --light: #f4f4fd;
+    --white-text-color:#ffffff;
+    --Modal-overlay: #2E2F42;
+    --Hero-background: #2E2F42;
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+
+}
+
+body {
+    font-family: var(--main-font);
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    background-color: var(--white-text-color);
+    color: var(--dark);
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/* STYLES STUDIO */
+
+/* ================= Header styles ================= */
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    color:var(--dark);
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color:var(--primary-brand);
+}
+
+
+.header-menu {
+    font-weight: 500;
+    line-height: 1.5;
+    color:var(--dark);
+}
+
+.current{
+ color: var(--primary-brand);
+}
+
+.header-menu:hover,
+.header-menu:focus {
+    color:var(--primary-brand);
+}
+
+.header-contact {
+    line-height: 1.5;
+    color:var(--text);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color:var(--primary-brand);
+}
+
+/*================= /Header styles ================= */
+
+
+/*================= Hero ================= */
+.hero {
+    background-color:var(--Hero-background);
+    
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color:var(--white-text-color);
+}
+
+.hero-btn { 
+
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-Size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: var(--primary-brand);
+    color:var(--white-text-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color:var(--pressed-state);
+    color: var(--white-text-color);
+
+}
+
+/*================= /Hero ================= */
+
+
+/*================= Advantages ================= */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+
+}
+
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px; 
+    line-height:1.2;
+    letter-spacing: 0.02em;
+    
+}
+
+.text {
+    line-height: 1.5;
+    color:var(--text);
+}
+
+/* ================= /Advantages ================= */
+
+
+/*================= Team ================= */
+.team {
+    background-color:var(--light);
+}
+
+/*================= /Team ================= */
+
+/* ===================  Footer    ================ */
+.footer {
+    background-color:var(--dark);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color:var(--accent);
+}
+
+.footer-logo {
+    color:var(--light);
+}
+
+/* ===================  /Footer    ================ */
+
+/* STYLES PORTFOLIO */
+
+/* ============== Filter ============= */
+
+.filter-btn {
+    font-family:var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color:var(--primary-brand);
+    Background-color:var(--light);
+    border:var(--accent);
+   
+
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color:var(--pressed-state);
+    color:var(--white-text-color);
+}
